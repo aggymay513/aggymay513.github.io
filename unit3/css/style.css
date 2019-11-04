@@ -1,0 +1,19 @@
+body {
+	background: #fafafa;
+	font-family: helvetica;
+	text-align: center;
+
+}
+
+h1 {
+	color: #84E056
+}
+
+#slogan {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+img {
+	width: 2000px;
+}
