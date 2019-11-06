@@ -1,0 +1,48 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+body {
+	background: #f9fafb;
+	font-family: Roboto;
+	text-align: center;
+}
+
+h1 {
+	color: #84E056
+}
+
+#logohead {
+	height: 50px;
+	padding: 6px;
+}
+
+#logo {
+	height: 100%;
+	width: auto;
+}
+
+#hero {
+	background-image: url(../images/hero.jpg);
+	height: 30vw;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: #f9fafb;
+	font-family: "Roboto", sans-serif;
+	line-height: 3em;
+}
+
+#slogan {
+	font-size: 40px;
+	font-weight: bold;
+	font-family: "Nunito", sans-serif;
+}
+
+ul {
+	font-family: "Open Sans", sans-serif;
+}
+
+img {
+	width: 2000px;
+}
