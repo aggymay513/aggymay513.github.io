@@ -1,0 +1,100 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+body {
+	background: #f9fafb;
+	font-family: Roboto;
+	text-align: center;
+}
+
+h1 {
+	color: #84E056
+}
+
+#navbar {
+	height: 80px;
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#logo {
+	height: 30px;
+	width: auto;
+}
+
+header {
+	background-image: url(../images/hero.jpg);
+	height: 30vw;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: #f9fafb;
+	font-family: "Roboto", sans-serif;
+	line-height: 3em;
+}
+
+#slogan {
+	font-size: 40px;
+	font-weight: bold;
+	font-family: "Nunito", sans-serif;
+}
+
+#realestate {
+	background-color: #E582a2;
+	border:	1px black solid;
+	padding: 20px;
+	float: left;
+	width: 33%;
+}
+
+#construction {
+	background-color: #e55b88;
+	border:	1px black solid;
+	padding: 20px;
+	float: left;
+	width: 33%;
+}
+
+#aerial {
+	background-color: #D371E5;
+	border:	1px black solid;
+	padding: 20px;
+	float: left;
+	width: 33%;
+}
+
+#three_column {
+	background-color: #ffb7cf;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+aside {
+	background-color: #FFC675;
+	border:	1px black solid;
+	padding: 20px;
+}
+
+section {
+	background-color: #FFE2B8;
+	border:	1px black solid;
+	padding: 20px;
+}
+
+footer {
+	background-color: #FF957E;
+	border:	1px black solid;
+	padding: 20px;
+}
